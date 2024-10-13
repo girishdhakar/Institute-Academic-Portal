@@ -1,0 +1,111 @@
+
+#home-page-root{
+    display: flex;
+    gap: 0;
+    width: 100%;
+    overflow-y: visible;
+    margin: 0;
+  }
+  
+  .home-page-left{
+    width:70px;
+    height:100vh;
+  }
+  
+  .home-page-left.open-left{
+    width: 250px;
+    transition: width 0.4s ease;
+  }
+  
+  .home-page-right{
+    width: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .home-page-right.open-right{
+    width: calc(100% - 250px);
+    transition: width 0.4s ease;
+  }
+  
+  .profile-class{
+    /* background-color: brown; */
+    padding-left: 7px;
+    padding-right: 7px;
+    height:100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 60px;
+    background-color: #D3D9D4;
+    padding-bottom: 15px;
+  }
+  
+  .profile-class-2{
+    background-color: white;
+    height:100%;
+    width: 100%;
+    border-radius: 7px;
+    
+  }
+    .profile-heading{
+      box-sizing: border-box;
+      height: 50px;
+      width: 100%;
+      background-color: #007bff;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+      align-content: center;
+      padding-left: 20px;
+    }
+  
+    .table-class{
+      padding-left: 40px;
+      padding-right: 40px;
+      height:100%;
+      width: 100%;
+      padding-top: 20px;
+  
+    }
+      .roll-number{
+        background-color: crimson;margin-top: 15px;
+        padding: 7px;
+        border-radius: 7px;
+        margin-bottom: 20px;
+        width: fit-content;
+      }
+
+      .user-detail{
+        display: flex;
+        gap :80px;  
+        padding: 50px;
+
+        img{
+          height :200px;
+          width : 200px;
+          border: solid 1px #8f9091;
+        }
+        
+        table th,
+        table td {
+          margin-right: 50px;
+          vertical-align: top;
+          border-top: 1px solid #dee2e6;
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .user-detail{          
+          flex-direction: column;
+          gap : 30px;
+        }
+        img{
+          height: 120px;
+          width: 120px;
+        }
+      }
+    
+  
+  

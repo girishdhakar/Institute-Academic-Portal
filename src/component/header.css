@@ -1,0 +1,36 @@
+
+.header {
+  height: 60px;
+  background-color: #eff1f3;
+  opacity: 0.98;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: solid 1px #D3D9D4;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #2c3e50;
+}
+
+.header-icon:hover {
+  opacity: 0.8;
+}
+
+.signout-icon{
+  padding-right: 40px;
+}

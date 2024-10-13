@@ -1,0 +1,42 @@
+.student-roll-no{
+    display: flex;
+    justify-content: space-around;
+}
+
+.submitRollNo1{
+    background-color: #4681f4;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: -1px;
+}
+
+.edit{
+    background-color: #5dbea3;
+    width: fit-content;
+    align-self: center;
+    padding: -1px;
+    margin-bottom: 5px;
+}
+
+.save{
+    background-color: #33b249;
+    width: fit-content;
+    align-self: center;
+    padding: -1px;
+}
+
+edit-del{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+}
+
+.delete{
+    background-color: red;
+    width: fit-content;
+    align-self: center;
+    padding: -1px;
+    margin : 10px;
+}
